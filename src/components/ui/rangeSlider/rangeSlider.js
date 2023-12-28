@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Input from "../input/input";
+import { formatNumber } from "../../../utils/common";
 
 const RangeSlider = (props) => {
   const {
@@ -13,7 +14,7 @@ const RangeSlider = (props) => {
     step = undefined,
   } = props;
   return (
-    <div className="relative" title={`₹ ${Number(value).toFixed(2)}/-`}>
+    <div className="relative" title={`₹ ${formatNumber(value)}/-`}>
       {label && (
         <label
           htmlFor="minmax-range"
@@ -34,10 +35,10 @@ const RangeSlider = (props) => {
         classProp="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
       />
       <span class="text-sm text-gray-500 dark:text-gray-400 absolute start-1 -bottom-6">
-        {min && `Min: ₹ ${Number(min).toFixed(2)}/-`}
+        {min && `Min: ₹ ${formatNumber(min)}/-`}
       </span>
       <span class="text-sm text-gray-500 dark:text-gray-400 absolute end-1 -bottom-6">
-        {max && `Max: ₹ ${Number(max).toFixed(2)}/-`}
+        {max && `Max: ₹ ${formatNumber(max)}/-`}
       </span>
     </div>
   );

@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const Select = (props) => {
   const {
+    value = 0,
     options = [],
     id = "",
     classNames = "",
@@ -21,12 +22,16 @@ const Select = (props) => {
         </label>
       )}
 
-      <select id={id} className={classNames} onChange={onChange}>
-        <option disabled value={0}>
+      <select id={id} className={classNames} onChange={onChange} value={value}>
+        <option disabled value={0} selected>
           {`select ${label}`}
         </option>
         {options.map((option) => (
-          <option key={option.id} selected value={option.value}>
+          <option
+            key={option.id}
+            selected={option.value === +value}
+            value={option.value}
+          >
             {option.label}
           </option>
         ))}

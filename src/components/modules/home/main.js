@@ -5,9 +5,12 @@ import classes from "./home.module.css";
 import Image from "../../ui/image";
 import StarIcon from "../../../assets/svg/starIcon";
 import HeartIcon from "../../../assets/svg/heartIcon";
-import { products } from "../../../context/data";
+import { formatNumber } from "../../../utils/common";
+import { useSelector } from "react-redux";
 
 const Main = () => {
+  const products = useSelector((state) => state.product.updatedProducts);
+  console.log("products", products);
   return (
     <main className={`${classes["main-wrapper"]}`}>
       <Flexbox gap={10}>
@@ -44,7 +47,7 @@ const Main = () => {
             </Card.Body>
             <Card.Footer>
               <span class=" font-bold text-gray-900 dark:text-white">
-                {`$${Number(product.price).toFixed(2)}/-`}
+                {`₹${formatNumber(product.price)}/-`}
               </span>
               <button
                 onClick={() => alert()}

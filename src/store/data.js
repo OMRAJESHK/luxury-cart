@@ -224,7 +224,7 @@ export const products = [
       "https://plus.unsplash.com/premium_photo-1677348975907-147a14432e0d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2luZG93c3xlbnwwfHwwfHx8MA%3D%3D",
   },
   {
-    id: 13,
+    id: 14,
     title: "Apple M1 Pro",
     description:
       "Apple Excepteur sint occaecat cupidatat non proident. Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -241,7 +241,7 @@ export const products = [
       "https://images.unsplash.com/photo-1569770218135-bea267ed7e84?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwcGxlJTIwbGFwdG9wfGVufDB8fDB8fHww",
   },
   {
-    id: 14,
+    id: 15,
     title: "Samsung Blaze",
     description:
       "Samsung Excepteur sint occaecat cupidatat non proident. Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -256,7 +256,7 @@ export const products = [
       "https://images.unsplash.com/photo-1591122947157-26bad3a117d2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2Ftc3VuZyUyMG1vYmlsZXN8ZW58MHx8MHx8fDA%3D",
   },
   {
-    id: 15,
+    id: 16,
     title: "Chair Pro",
     description:
       "Comfy Excepteur sint occaecat cupidatat non proident. Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -272,7 +272,7 @@ export const products = [
       "https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhaXJ8ZW58MHx8MHx8fDA%3D",
   },
   {
-    id: 16,
+    id: 17,
     title: "Dell Max",
     description:
       "Dell Excepteur sint occaecat cupidatat non proident. Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -289,7 +289,7 @@ export const products = [
       "https://plus.unsplash.com/premium_photo-1681319553238-9860299dfb0f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wfGVufDB8fDB8fHww",
   },
   {
-    id: 16,
+    id: 18,
     title: "Vivo Wonder",
     description:
       "Vivo Excepteur sint occaecat cupidatat non proident. Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -306,7 +306,7 @@ export const products = [
       "https://images.unsplash.com/photo-1598965402089-897ce52e8355?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dml2b3xlbnwwfHwwfHx8MA%3D%3D",
   },
   {
-    id: 17,
+    id: 19,
     title: "Window Freeze",
     description:
       "Windowmakers Excepteur sint occaecat cupidatat non proident. Sint occaecat cupidatat non proident Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -323,7 +323,7 @@ export const products = [
       "https://plus.unsplash.com/premium_photo-1678859593693-690e742657e0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdpbmRvd3N8ZW58MHx8MHx8fDA%3D",
   },
   {
-    id: 18,
+    id: 20,
     title: "Nokia Neo",
     description:
       "Nokia nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -340,7 +340,7 @@ export const products = [
       "https://images.unsplash.com/photo-1609500537901-91f5b4c900e6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG5va2lhJTIwbW9iaWxlc3xlbnwwfHwwfHx8MA%3D%3D",
   },
   {
-    id: 19,
+    id: 21,
     title: "Tablemate Ultra",
     description:
       "Tablemate Diner Quis nostis nostrud fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat",
@@ -357,7 +357,7 @@ export const products = [
       "https://images.unsplash.com/photo-1581428982868-e410dd047a90?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGV8ZW58MHx8MHx8fDA%3D",
   },
   {
-    id: 20,
+    id: 22,
     title: "Motorola Gravity",
     description:
       "Motorola Quis nostrud exercitation ullamco laboris Lorem ipsum dolor sit amet, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
