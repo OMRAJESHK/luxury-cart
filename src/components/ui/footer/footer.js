@@ -5,17 +5,10 @@ const Footer = () => {
   const currentyear = date.getFullYear();
 
   return (
-    <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
-      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-          © {`${currentyear} `}
-          <a href="https://flowbite.com/" className="hover:underline">
-            LuxuryCart™
-          </a>
-          . All Rights Reserved.
-        </span>
-      </div>
+    <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-600 ">
+      <p class="text-gray-500 dark:text-gray-400 w-full p-0 m-0">
+        {`© ${currentyear} LuxuryCart™. All Rights Reserved.`}
+      </p>
     </footer>
   );
 };

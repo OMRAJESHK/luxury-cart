@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Flexbox from "../flexbox/flexbox";
+import classes from "./image.module.css";
 
 const Image = (props) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -9,8 +10,6 @@ const Image = (props) => {
   const {
     src = "",
     alt = "photo",
-    width = 50,
-    height = 50,
     classProp = "",
     onLoad = () => {},
     onError = () => {},
@@ -31,15 +30,21 @@ const Image = (props) => {
 
   return (
     <>
-      {isLoading && !src && "Loading..."}
+      {isLoading && (
+        <Flexbox
+          justifyContent="center"
+          alignItems="center"
+          styleProp={{ height: "100%", border: "1px solid" }}
+        >
+          Loading...
+        </Flexbox>
+      )}
       {!isError && src && (
         <img
           aria-label={alt}
-          className={`${classProp && classProp}`}
+          className={`${classProp && classProp} ${classes.image}`}
           src={src}
           alt={alt}
-          width={width}
-          height={height}
           onLoad={onImageLoad}
           onError={onImageError}
           style={styleProp}
@@ -50,7 +55,7 @@ const Image = (props) => {
         <Flexbox
           justifyContent="center"
           alignItems="center"
-          styleProp={{ height: "100%" }}
+          styleProp={{ height: "100%", border: "1px solid rgb(136 134 134)" }}
         >
           Not Found
         </Flexbox>

@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const HeartIcon = ({ size = 25, onClick = () => {} }) => {
+const HeartIcon = ({ size = 0, onClick = () => {}, isFill = undefined }) => {
   return (
     <svg
       id="heart-svg"
       width={`${size}px`}
       height={`${size}px`}
       viewBox="0 0 24 24"
-      fill="none"
+      fill={isFill ? "pink" : "none"}
       xmlns="http://www.w3.org/2000/svg"
       onClick={onClick}
       stroke="currentColor"
@@ -26,6 +26,10 @@ const HeartIcon = ({ size = 25, onClick = () => {} }) => {
   );
 };
 
-HeartIcon.propTypes = { size: PropTypes.number, onClick: PropTypes.func };
+HeartIcon.propTypes = {
+  size: PropTypes.number,
+  onClick: PropTypes.func,
+  isFill: PropTypes.bool,
+};
 
 export default HeartIcon;

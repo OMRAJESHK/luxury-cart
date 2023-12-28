@@ -34,7 +34,7 @@ const Navbar = () => {
         <div class="flex items-center bg-gray-50 border border-gray-300 rounded-lg dark:bg-gray-700 dark:border-gray-600 mx-2">
           <Input
             id="search"
-            classNames={inputClasses}
+            classProp={inputClasses}
             type="search"
             name="search"
             placeholder="Search..."
