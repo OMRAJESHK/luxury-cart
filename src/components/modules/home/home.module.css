@@ -1,0 +1,17 @@
+.aside-wrapper{
+  flex-basis: 25%;
+  height: 100%;
+}
+
+.main-wrapper{
+  flex-basis: 72%;
+  margin-bottom: 5rem;
+}
+
+.image-wrapper{
+  height: 19.5rem;
+}
+
+.product-item-wrapper{
+  flex-basis: 32%;
+}
