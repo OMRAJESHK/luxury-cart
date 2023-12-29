@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-const HeartIcon = ({ size = 0, onClick = () => {}, isFill = undefined }) => {
+const HeartIcon = ({ size = 0, onClick = () => {} }) => {
+  const [isFill, setIsFill] = useState(false);
+  const onIconClickHandler = () => {
+    setIsFill(!isFill);
+    onClick();
+  };
   return (
     <svg
       id="heart-svg"
@@ -10,7 +15,7 @@ const HeartIcon = ({ size = 0, onClick = () => {}, isFill = undefined }) => {
       viewBox="0 0 24 24"
       fill={isFill ? "pink" : "none"}
       xmlns="http://www.w3.org/2000/svg"
-      onClick={onClick}
+      onClick={onIconClickHandler}
       stroke="currentColor"
       className="h-10 w-10 pt-0.5 px-2 text-gray-600 dark:text-white"
     >

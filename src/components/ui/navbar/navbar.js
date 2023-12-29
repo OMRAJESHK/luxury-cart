@@ -9,8 +9,10 @@ import SearchIcon from "../../../assets/svg/searchIcon";
 import Input from "../input/input";
 import Select from "../select/select";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const { darkMode, toggleDarkMode } = useTheme();
   const [category, setCategory] = useState(0);
@@ -61,7 +63,7 @@ const Navbar = () => {
         </div>
         <ul class="flex items-center space-x-6">
           <li>
-            <HeartIcon />
+            <HeartIcon onClick={() => navigate("/preference")} />
           </li>
           <li>
             <ShoppingCartIcon />

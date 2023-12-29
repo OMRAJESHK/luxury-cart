@@ -58,6 +58,7 @@ export const productSlice = createSlice({
     category: 0,
     price: 0,
     company: [],
+    selected: {},
   },
   reducers: {
     getProductsByCategory: (state, action) => {
@@ -97,6 +98,11 @@ export const productSlice = createSlice({
       state.updatedProducts = updatedProductList;
       state.company = companyIds;
     },
+    getProductById: (state, action) => {
+      const { productId } = action.payload;
+      let product = state.products.find((product) => product.id === +productId);
+      state.selected = product;
+    },
     resetProducts: (state) => {
       state.products = products;
     },
@@ -108,6 +114,7 @@ export const {
   getProductsByCategory,
   getProductsByPrice,
   getProductsByCompanies,
+  getProductById,
   resetProducts,
 } = productSlice.actions;
 

@@ -1,0 +1,25 @@
+.product-gallery-wrapper{
+  flex-basis: 40%;
+  height: 20rem;
+}
+
+.product-description-wrapper{
+  flex-basis: 58%;
+}
+
+.product-img,.product-hero-img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.product-hero-img-wrapper{
+  position: relative;
+  width: 39.6rem;
+    height: 35rem;
+}
+.product-img-wrapper{
+  position: relative;
+  width: 13rem;
+    height: 10rem;
+}
+

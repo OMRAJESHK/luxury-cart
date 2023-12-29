@@ -1,0 +1,9 @@
+.image-wrapper{
+  height: 19.5rem;
+  flex-basis: 35%;
+}
+
+.product-description-wrapper{
+  text-align: justify;
+  flex-basis: 64%;
+}
